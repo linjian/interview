@@ -10,7 +10,7 @@ function MyComponent() {
           setNumber((number) => number + 1);
       },
       running ? 1000 : null,
-      );
+  );
   return (
       <div>
         <span>{number}</span>
@@ -18,6 +18,6 @@ function MyComponent() {
           {running ? '暂停' : '开始'}
         </button>
       </div>
-      );
+  );
 }
 ```
